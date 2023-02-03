@@ -1,0 +1,11 @@
+# TensorFlow vs Py Torch: Choosing the Right Deep Learning Framework
+
+TensorFlow and PyTorch are both open-source deep learning frameworks, but there are some key differences between the two.
+
+TensorFlow, developed by Google, is a popular deep-learning framework that allows for easy experimentation and iteration. It also offers a wide variety of tools and libraries for deploying and deploying deep learning models in production environments. TensorFlow also has strong community support, with many contributors and users sharing their experiences and knowledge online.
+
+PyTorch, on the other hand, is developed by Facebook's AI research lab. It is a relatively new framework but has quickly gained popularity among researchers due to its flexibility and ease of use. PyTorch offers a dynamic computational graph, which allows for faster and more efficient model building and training. It also has strong support for GPUs, making it well-suited for working with large-scale datasets.
+
+One key difference between the two frameworks is the way they approach numerical computations. TensorFlow uses a static computational graph, which means that the graph structure must be defined before the model can be run. This can make it difficult to debug and modify models, as the graph must be rebuilt from scratch each time a change is made. PyTorch, on the other hand, uses a dynamic computational graph, which allows for more flexibility and faster model building.
+
+Another key difference is the way the two frameworks handle data. TensorFlow uses a dataflow-based approach, where data is passed through the graph in a predetermined sequence. This can be useful for working with large datasets, as it allows for efficient batch processing. PyTorch, on the other hand, uses a more traditional object-oriented approach, where data is stored in tensors and can be processed using a variety of different operations. This can make PyTorch more intuitive for people with a background in object-oriented programming.
